@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<style>
+    .container {
+        width: 700px;
+        margin: auto;
+        border: 0.5px solid rgb(221, 204, 204);
+        padding: 10px;
+    }
+
+    h1 {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .text {
+        font-weight: normal;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Hubungi Kami</h1>
+        <ul style="padding: 0px;">
+            <li><span>Kantor : </span>di jalan belum jadi</li>
+            <li><span>Nomor Telepon : </span>08XX-XXXX-XXXX</li>
+            <li><span>Email : </span>email@contoh.com</li>
+        </ul>
+        <h1>Kirimkan Pesan</h1>
+        <form action="">
+            <table cellpadding="5px" style="width: 500px;">
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td><input type="text" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="text" id="email"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td rowspan="2"><input type="radio" name="jk" id="laki-laki" value="Laki-Laki"><label class="text"
+                            for="laki-laki">Laki-Laki</label>
+                        <br>
+                        <input type="radio" name="jk" id="perempuan" value="Perempuan"><label class="text"
+                            for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="jk">Jenis Kelamin</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td rowspan="5"><textarea name="pesan" id="pesan" cols="45" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="pesan">Pesan Anda</label></td>
+                </tr>
+                <tr>
+                    <td><button>Kirim</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <a style="margin-left: 400px;" href="index.html">Kembali Ke Index</a>
+</body>
+
+</html>
