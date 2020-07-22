@@ -52,7 +52,7 @@ var nilai;
 var lanjut = true;
 
 while (lanjut) {
-    nilai = parseInt(prompt('masukkan nilai : '));
+    nilai = parseInt(prompt('Masukkan nilai input untuk index : '));
 
     if (nilai >= 80) {
         hasil = 'indeksnya A';
@@ -68,11 +68,11 @@ while (lanjut) {
 
     alert(hasil);
 
-    lanjut = confirm('input lagi?');
+    lanjut = confirm('Input lagi?');
 
 }
 
-alert('terimakasih');
+alert('Terimakasih sudah mencoba!');
 
 // jawaban soal 5
 
@@ -112,10 +112,10 @@ switch (bulan) {
         bulan = 'November';
         break;
     case 11:
-        bulan = 'Desember';
+        bulan = 'Oktober';
         break;
     case 12:
-        bulan = 'Oktober';
+        bulan = 'Desember';
         break;
 }
 
